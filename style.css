@@ -1,5 +1,10 @@
 .color-bg{
     background-color: #FEEAE9;
+    border-radius: 10px;
+}
+
+.container{
+    margin-bottom: 100px;
 }
 
 .carousel-item{
@@ -17,4 +22,53 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    color: white;
+    border-radius: 15px;
+}
+
+.cat1{
+    background-image: linear-gradient(to right, #FF9C35 0%, #FFD019 100%);
+}
+
+.cat2{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+}
+
+.cat3{
+    background-image: linear-gradient(to right, #4289FF 0%, #3F07F8 100%);
+   
+}
+
+.catagory img{
+   width: 110px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 15px;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+ 
+}
+
+#contact-us{
+    height: 300px;
+}
+
+#contact-us h6{
+    color: grey;
+}
+
+.footer{
+    text-align: center;
+    color: grey;
+    font-size: 15px;
 }
