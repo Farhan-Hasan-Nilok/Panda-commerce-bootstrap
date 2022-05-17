@@ -72,3 +72,10 @@
     color: grey;
     font-size: 15px;
 }
+
+/* for mobile device */
+/* @media only screen and (max-width: 600px) {
+    .row{
+        margin-top: 20px;
+    }
+} */
